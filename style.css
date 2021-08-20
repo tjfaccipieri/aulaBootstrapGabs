@@ -1,3 +1,29 @@
-.centralizar-links{
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+a {
+  font-family: 'Poppins', sans-serif;
+  color: #372a25;
+  font-size: 1rem;
+}
+
+.centralizar-links {
   margin: 0 auto;
+}
+
+.cornavbar {
+  background-color: #fff0e9;
+}
+
+.botaonavbar {
+  color: #fff3e6;
+  background-color: #f99c80;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.botaonavbar:hover{
+  color: #fff3e6;
+  background-color: #ff7d56;
+  transition: 0.4s;
 }
